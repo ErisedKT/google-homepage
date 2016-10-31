@@ -1,0 +1,97 @@
+.logo {
+  padding-top: 190px;
+  padding-left: 496px;
+}
+
+.mytext {
+  width: 572px;
+  height: 34px;
+  font-size: 20px;
+  padding-left: 9px;
+  font-size: 17px;
+  font-family: Arial;
+}
+
+#travis {
+  padding-left: 347px;
+  padding-top: 26px;
+}
+
+.king {
+  position:relative;
+  padding-left: 553px;
+  top: -32px;
+}
+
+input[type="text"] {
+  cursor: auto;
+  outline: none;
+
+}
+
+input[type=submit]{
+
+  background-color: #f2f2f2;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #757575;
+  border: 1px solid #f2f2f2;
+  font-family: arial,sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-top: 5px;
+  cursor: default;
+  text-align: center;
+  min-width: 54px;
+
+
+}
+
+input[type=submit]:first-child {
+  margin-right: 4px;
+
+}
+
+.physics {
+  background-color: #f2f2f2;
+  height: 40px;
+  position: fixed;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border-top: 1px solid #e4e4e4;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+  font-size: 13px;
+  font-family: sans-serif, arial;
+  padding-left: 30px;
+  display: inline-block;
+  padding-top: 12px;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.lyra {
+  display: inline-block;
+  float: left;
+}
+
+.pan {
+  float: right;
+  padding-right: 31px;
+}
+
+.header {
+  float: right;
+}
