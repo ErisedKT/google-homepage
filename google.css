@@ -46,12 +46,13 @@ input[type=submit]{
   cursor: default;
   text-align: center;
   min-width: 54px;
-
+  position: relative;
 
 }
 
 input[type=submit]:first-child {
   margin-right: 4px;
+  position: relative;
 
 }
 
@@ -95,13 +96,13 @@ a:hover {
 .header {
   float: right;
   position: relative;
-  top: -442px;
+  top: -431px;
 }
 
 .apps {
-  display:inline-block;
+  display: inline;
   position: relative;
-  margin-top: 10px;
+  top: 8px;
 }
 
 button {
@@ -118,5 +119,16 @@ button {
   font-size: 13px;
   margin-right: 22px;
   font-family: arial,sans-serif;
-  margin-left: 11px;
+  margin-left: 13px;
+}
+
+#images {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+}
+
+#wrapper {
+  min-width: 50%;
+  min-height: 50%;
 }
